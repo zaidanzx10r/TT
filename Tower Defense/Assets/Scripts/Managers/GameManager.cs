@@ -51,6 +51,8 @@ namespace Managers {
         private EnemyManager _enemyManager;
         private WaveSpawner _waveSpawner;
         private DialogManager _dialogManager;
+        private AudioSource[] _audioSources; 
+        public static bool Pause;
 
         private float _gameSpeed;
 
@@ -99,10 +101,19 @@ namespace Managers {
         }
 
         //called from button or key code
-        public void OnPausePress() => _dialogManager.TogglePauseLabel(_gameSpeed);
+        public void OnPausePress()
+        {
+            _dialogManager.TogglePauseLabel(_gameSpeed);
+            Pause = true;
+        }
 
         //called also from UI button press
-        public void OnPlayButtonPress() => _waveSpawner.SpawnCurrentWave();
+        public void OnPlayButtonPress()
+        {
+            _waveSpawner.SpawnCurrentWave();
+
+             
+        }
 
         public void TakeDamage(int dmg) {
             _health -= dmg;

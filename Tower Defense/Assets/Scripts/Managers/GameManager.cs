@@ -83,7 +83,7 @@ namespace Managers {
             _displayUI.UpdateHealthUI(_health);
             _displayUI.UpdateMoneyUI(_money);
             _displayUI.UpdateMaxWaveCountUI(_waveSpawner.GetMaxWaveCount(), _waveSpawner.GetCurrentWaveIndex());
-            _displayUI.UpdateCurrentWaveCountUI(1); //start with first wave always
+            _displayUI.UpdateCurrentWaveCountUI(1); //starts with first wave (dont change)
         }
 
         private void Update() {

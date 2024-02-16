@@ -1,9 +1,11 @@
 fileFormatVersion: 2
-guid: f41ecc720e51d7744928f53de1e24d30
+guid: db080d895896fb04aa6774aba7211310
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - txt_healthCount: {fileID: 3703892313080966011, guid: a9be86126bd561942b6be3e9a5555954,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

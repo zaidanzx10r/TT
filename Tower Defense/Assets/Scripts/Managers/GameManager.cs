@@ -77,6 +77,7 @@ namespace Managers {
             _money = money;
             _health = maxHealth;
             SetupUI();
+            GetComponent<PlayerHealth>().Init();
         }
 
         private void SetupUI() {

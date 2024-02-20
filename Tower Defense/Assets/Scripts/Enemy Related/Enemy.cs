@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using Managers;
 using Tower_Related;
 using UI;
@@ -33,7 +32,7 @@ namespace Enemy_Related {
             _healthBar = GetComponentInChildren<HealthBar>();
             _healthBar.SetMaxHealthValue(_health);
         }
-        
+
         //getters setters
         public int GetPoints() => points;
         public float GetMoveSpeed() => moveSpeed;

@@ -5427,7 +5427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   txt_healthCount: {fileID: 3703892313080966011, guid: a9be86126bd561942b6be3e9a5555954,
     type: 3}
-  defaulthealthCount: 5
+  defaulthealthCount: 100
   healthCount: 0
 --- !u!4 &1293597334 stripped
 Transform:
@@ -11257,7 +11257,7 @@ PrefabInstance:
     - target: {fileID: 3170883194499151095, guid: 726f7da6f36f4ec4dbe65c74aba5eb65,
         type: 3}
       propertyPath: money
-      value: 500
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 3170883194499151095, guid: 726f7da6f36f4ec4dbe65c74aba5eb65,
         type: 3}
@@ -11267,7 +11267,7 @@ PrefabInstance:
     - target: {fileID: 3170883194499151095, guid: 726f7da6f36f4ec4dbe65c74aba5eb65,
         type: 3}
       propertyPath: maxHealth
-      value: 5
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3170883194499151095, guid: 726f7da6f36f4ec4dbe65c74aba5eb65,
         type: 3}

@@ -10,6 +10,8 @@ namespace Tower_Related {
         private EnemyScanner _enemyScanner;
         private Weapon _weapon;
         private bool _isHover = false;
+        private PlayerHealth _playerHealth;
+        public GameObject currentHealth;
 
         private void Awake() {
             _enemyScanner = GetComponentInChildren<EnemyScanner>();
@@ -34,7 +36,7 @@ namespace Tower_Related {
         }
 
         public void RemoveTower() {
-            // Destroys tower and unregisters from TowerIDManager
+            //Destroys tower and unregisters from TowerIDManager
             DestroyTower();
             Destroy(gameObject);
         }
@@ -50,16 +52,29 @@ namespace Tower_Related {
         private void InitializeTower(int playerID) {
             ownerPlayerID = playerID;
 
-            // Generate a unique tower ID using TowerIDManager
+            //Generate a unique tower ID using TowerIDManager
             towerID = TowerIDManager.Instance.GenerateUniqueTowerID();
 
-            // Register this tower with TowerIDManager
+            //Register this tower with TowerIDManager
             TowerIDManager.Instance.RegisterTower(towerID, this);
         }
         
         private void DestroyTower() {
-            // Unregister this tower from TowerIDManager
+            //Unregister this tower from TowerIDManager
             TowerIDManager.Instance.UnregisterTower(towerID);
         }
+
+        private void switchAttack()
+        {
+            PlayerHealth _playerHealth = FindObjectOfType<PlayerHealth>();
+
+            if (_playerHealth.healthCount <= 0)
+            {
+                switchAttack();
+                
+                Debug.Log("Player has switched to attack");
+            }
+        }
     }
+    
 }

@@ -13,6 +13,8 @@ public class TowerIDManager : MonoBehaviour
     // Dictionary to store tower IDs and their corresponding towers
     private Dictionary<int, Tower> towersByID = new Dictionary<int, Tower>();
 
+    private PlayerHealth playerHealth;
+
     // Method to get the TowerIDManager instance
     public static TowerIDManager Instance
     {
@@ -83,5 +85,17 @@ public class TowerIDManager : MonoBehaviour
             Debug.Log("Tower ID: " + pair.Key + ", Tower: " + pair.Value.name);
         }
     }
+
+    private void switchAttack()
+    {
+        PlayerHealth playerHealth = FindObjectOfType<PlayerHealth>();
+        
+        if (playerHealth.healthCount <= 0)
+        {
+            switchAttack();
+            Debug.Log("Player has Died");
+        }
+    }
+    
 
 }

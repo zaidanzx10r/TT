@@ -36,10 +36,6 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("You Lose");
             //call reset values and stop game from manager <here>
         }
-        else
-        {
-            
-        }
     }
     
 }

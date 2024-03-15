@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ccb9fa087ac86c4b863d72739989ebf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cost: 1100
+  cost: 2200
   towerID: 0
   ownerPlayerID: 0
   currentHealth: {fileID: 0}
@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dd2df2141234f645b80ce464f3dfd83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0.2
+  fireRate: 0.185
   projectilePrefab: {fileID: 6602899991645405010, guid: 02e1d2418e6960a4c9845003ef37008e,
     type: 3}
   firePoint: {fileID: 7962944071585606000}

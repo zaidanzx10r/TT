@@ -437,7 +437,7 @@ Transform:
   m_GameObject: {fileID: 104440982}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.75, y: -0.88, z: 0}
+  m_LocalPosition: {x: -5.14, y: 5.88, z: 0}
   m_LocalScale: {x: 3.1777499, y: 3.141, z: 3.141}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1074,7 +1074,6 @@ Transform:
   - {fileID: 906702424}
   - {fileID: 1993343450}
   - {fileID: 104440983}
-  - {fileID: 1339199537}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &541545789
@@ -1345,7 +1344,7 @@ PrefabInstance:
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[1]
       value: 
-      objectReference: {fileID: 4975662135226182857, guid: 4da93c8f36d21e540b61bd9d07a968b0,
+      objectReference: {fileID: 3084238431173190282, guid: f0eee996b028fb6478e22ee4ceff01dc,
         type: 3}
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[2]
@@ -1355,7 +1354,7 @@ PrefabInstance:
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[3]
       value: 
-      objectReference: {fileID: 4975662135226182857, guid: 4da93c8f36d21e540b61bd9d07a968b0,
+      objectReference: {fileID: 3084238431173190282, guid: f0eee996b028fb6478e22ee4ceff01dc,
         type: 3}
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[4]
@@ -1365,7 +1364,7 @@ PrefabInstance:
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: easyEnemies.Array.data[5]
       value: 
-      objectReference: {fileID: 4975662135226182857, guid: 4da93c8f36d21e540b61bd9d07a968b0,
+      objectReference: {fileID: 3084238431173190282, guid: f0eee996b028fb6478e22ee4ceff01dc,
         type: 3}
     - target: {fileID: 1302657826, guid: 0706d6189daded1489a0201296064e39, type: 3}
       propertyPath: baseNumOfEnemiesPerSubWave
@@ -5571,90 +5570,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1772491253}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1339199535
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1339199537}
-  - component: {fileID: 1339199536}
-  m_Layer: 0
-  m_Name: gamespawncave
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &1339199536
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339199535}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -600845829
-  m_SortingLayer: 3
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 04565884a2d0f9d4cb6464da1d62423e, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 12.8, y: 11.85}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &1339199537
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1339199535}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -5.15, y: 6.01, z: 0}
-  m_LocalScale: {x: 0.2692, y: 0.2692, z: 0.2692}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 485973935}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &1419253559
 GameObject:
   m_ObjectHideFlags: 0
@@ -12828,11 +12743,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 93056884, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 637.7
+      value: 647
       objectReference: {fileID: 0}
     - target: {fileID: 93056884, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 436.9568
+      value: 447.72
       objectReference: {fileID: 0}
     - target: {fileID: 93056884, guid: 4365b6ea1e1760c438b11235e52d9dd5, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -13596,12 +13511,12 @@ PrefabInstance:
     - target: {fileID: 855964550728677511, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -393
+      value: -387.1
       objectReference: {fileID: 0}
     - target: {fileID: 855964550728677511, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 910
+      value: 979.4
       objectReference: {fileID: 0}
     - target: {fileID: 986703614941806358, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
@@ -14043,7 +13958,7 @@ PrefabInstance:
     - target: {fileID: 5119563724957038794, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 893.27
+      value: 969
       objectReference: {fileID: 0}
     - target: {fileID: 5130315624997963422, guid: 4365b6ea1e1760c438b11235e52d9dd5,
         type: 3}

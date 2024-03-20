@@ -25,6 +25,7 @@ namespace Wave_Spawning {
         [SerializeField] private GameObject[] bossPrefabs;
 
         private EWaveDifficulty _eWaveDifficulty;
+        
 
         public Wave GetWave(int waveIndex) {
             //Normal Waves

@@ -25,7 +25,7 @@ namespace Wave_Spawning {
         private EnemyManager _enemyManager;
         private GameManager _gameManager;
         private SpawnState _state;
-        private int _currWaveIndex;
+        public int _currWaveIndex;
 
         private void Awake() {
             _state = SpawnState.Waiting;

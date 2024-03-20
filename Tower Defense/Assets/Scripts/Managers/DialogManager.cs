@@ -37,4 +37,5 @@ public class DialogManager : MonoBehaviour {
         yield return new WaitForSecondsRealtime(1f);
         waveFinishLabel.SetActive(false);
     }
+    
 }

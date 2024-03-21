@@ -1218,7 +1218,7 @@ MonoBehaviour:
   - Hello
   - Welcome to our game bitch
   - have fun
-  textSpeed: 0
+  textSpeed: 0.05
   dialogueBox: {fileID: 0}
   _desiredWaveIndex: 0
 --- !u!4 &401919630 stripped

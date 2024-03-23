@@ -1099,6 +1099,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2842017591334729284, guid: f83387e67053b3a46868ff6c37f8f722,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 94e96d27f0f708d4186c59f37a5d9675, type: 3}
     - target: {fileID: 2842017591334729285, guid: f83387e67053b3a46868ff6c37f8f722,
         type: 3}
       propertyPath: m_RootOrder

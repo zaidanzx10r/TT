@@ -40,7 +40,7 @@ namespace Enemy_Related {
             }
             else {
                 _gameManager.TakeDamage(_damageDealer.GetDamage()); //player health goes down
-                _enemy.Die();
+                _enemy.DiewNoBandz();
             }
         }
 

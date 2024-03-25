@@ -73,5 +73,14 @@ namespace Enemy_Related {
             Destroy(deathEffectGO, 0.5f);
             Destroy(gameObject);
         }
+        
+        //kill the player without giving money 
+        public void DiewNoBandz() {
+            GameObject deathEffectGO = Instantiate(bloodEffectPrefab, transform.position, Quaternion.identity);
+            AudioManager.GetInstance().PlayEnemyDeathSfx();
+            _enemyManager.RemoveEnemywNoBandz(this);
+            Destroy(deathEffectGO, 0.5f);
+            Destroy(gameObject);
+        }
     }
 }

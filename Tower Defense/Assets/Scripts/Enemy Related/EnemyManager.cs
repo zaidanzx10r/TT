@@ -37,6 +37,13 @@ namespace Enemy_Related {
                 OnAllEnemiesDeadEvent?.Invoke();
             }
         }
+        
+        public void RemoveEnemywNoBandz(Enemy enemy) {
+            enemies.Remove(enemy);
+            if (enemies.Count == 0) {
+                OnAllEnemiesDeadEvent?.Invoke();
+            }
+        }
 
         public List<Enemy> GetEnemiesList() => enemies;
 

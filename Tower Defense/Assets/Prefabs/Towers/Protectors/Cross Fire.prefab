@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fa13c99403bdd340820a819e8e06ffb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scanRange: 4
+  scanRange: 3.5
 --- !u!212 &4337079169539993473
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -118,8 +118,8 @@ SpriteRenderer:
   m_SortingLayerID: -650831795
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 32d948758d7c3394294d327df07559d2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.16470589}
+  m_Sprite: {fileID: 21300000, guid: 121f6efa5cf7dee4daf20a41bfcf378d, type: 3}
+  m_Color: {r: 0.8352941, g: 0, b: 1, a: 0.25490198}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -162,8 +162,8 @@ Transform:
   m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 2535567801478455351}
   - {fileID: 1160285543770826913}
+  - {fileID: 2535567801478455351}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &8571695149409480505
@@ -204,9 +204,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1614282399
-  m_SortingLayer: 8
-  m_SortingOrder: 0
+  m_SortingLayerID: -566880065
+  m_SortingLayer: 9
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 4d21ac75b6d08e340be9fcd13fce6ecd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -231,6 +231,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cost: 350
+  towerID: 0
+  ownerPlayerID: 0
+  currentHealth: {fileID: 0}
 --- !u!114 &9017823783106101769
 MonoBehaviour:
   m_ObjectHideFlags: 0

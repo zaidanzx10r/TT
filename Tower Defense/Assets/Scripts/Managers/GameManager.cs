@@ -51,7 +51,8 @@ namespace Managers {
         private EnemyManager _enemyManager;
         private WaveSpawner _waveSpawner;
         private DialogManager _dialogManager;
-        private AudioSource[] _audioSources; 
+        private AudioSource[] _audioSources;
+        private AttackManager _attackManager;
         public static bool Pause;
 
         private float _gameSpeed;

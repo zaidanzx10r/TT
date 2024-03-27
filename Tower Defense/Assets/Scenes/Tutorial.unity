@@ -544,9 +544,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1775984957}
   lines:
-  - You have been defeated.
-  - But it is not over my lord!
-  - We can now attack the enemy to get our castle back!!
+  - Welcome my lord to the battlefield.
+  - Your job is to place down towers to defeat monsters protect your Castle!
+  - Placing towers cost coins so be careful of what towers you choose.
+  - Goodluck!
   textSpeed: 0.05
   dialogueBox: {fileID: 1730783704}
   dialogueSoundEffect: {fileID: 8300000, guid: 397b4522e7cf5f04588b90fe54e43ffa, type: 3}
@@ -10071,7 +10072,7 @@ PrefabInstance:
     - target: {fileID: 3170883194499151095, guid: 726f7da6f36f4ec4dbe65c74aba5eb65,
         type: 3}
       propertyPath: maxHealth
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3170883194499151095, guid: 726f7da6f36f4ec4dbe65c74aba5eb65,
         type: 3}
